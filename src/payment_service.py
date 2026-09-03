@@ -1,3 +1,6 @@
-﻿class PaymentService:
-    def process_payment(self, amount):
-        return amount
+﻿class payment_service:
+    def processPayment(self, amount):
+        try:
+            return amount
+        except:
+            return 0
