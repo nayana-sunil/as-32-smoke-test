@@ -6,3 +6,6 @@
 
 ## Error Handling
 - Never use a bare `except:` — always catch a specific exception type.
+
+## Docstrings
+- Every public function MUST have a docstring.

@@ -1,6 +1,9 @@
 ﻿class order_service:
     def calculateTotal(self, items):
+        self.TotalAmount = 0
         try:
-            return sum(item.price for item in items)
+            for item in items:
+                self.TotalAmount += item.price
+            return self.TotalAmount
         except:
             return 0
